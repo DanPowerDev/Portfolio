@@ -49,8 +49,13 @@
 
 .skill-card {
   background-color: #EAEAEA;
-  width: calc(20% - 6.4px);
+  width: calc(33.33333% - 10.66666px);
   padding: 16px;
+}
+
+.tool-img {
+  height: 16px;
+  width: 16px;
 }
 
 .skill-container {

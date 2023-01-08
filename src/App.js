@@ -1,7 +1,6 @@
 import './App.css';
 import { SkillCard } from './components/skill-card';
-
-const skillArray = ['','','','','']
+import { skillArray } from './content/skills';
 
 function App() {
   return (
@@ -12,10 +11,10 @@ function App() {
       <section>
         <h2>What I do</h2>
         <div className='skill-container'>
-          {skillArray.map((s) => <SkillCard title='Lorem ipsum' text='Lorem ipsum dolor sit amet'/>)}
+          {skillArray.map((skill, i) => <SkillCard key={i} skill={skill} />)}
         </div>
       </section>
-      <section className='welcome'>
+      {/* <section className='welcome'>
         <h2>Welcome</h2>
         <p>
           I'm a software professional with over 4 years of experience in building sleek products, designing polished interfaces and writing clean code.
@@ -36,7 +35,7 @@ function App() {
       </section>
       <section>
         <h2>Work with me</h2>
-      </section>
+      </section> */}
     </div>
   );
 }

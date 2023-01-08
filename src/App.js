@@ -1,4 +1,7 @@
 import './App.css';
+import { SkillCard } from './components/skill-card';
+
+const skillArray = ['','','','','']
 
 function App() {
   return (
@@ -6,6 +9,12 @@ function App() {
       <header className="App-header">
         <h1>Let's build something beautiful</h1>
       </header>
+      <section>
+        <h2>What I do</h2>
+        <div className='skill-container'>
+          {skillArray.map((s) => <SkillCard title='Lorem ipsum' text='Lorem ipsum dolor sit amet'/>)}
+        </div>
+      </section>
       <section className='welcome'>
         <h2>Welcome</h2>
         <p>
@@ -16,22 +25,7 @@ function App() {
         </p>
       </section>
       <section>
-        <h2>What I do</h2>
-        <div>
-          <article>
-            <h3>Product management</h3>
-            <p></p>
-          </article>
-          <article>
-            <h3>UX Design</h3>
-          </article>
-          <article>
-            <h3>Frontend development</h3>
-          </article>
-        </div>
-      </section>
-      <section>
-        <h2>Portfolio</h2>
+        <h2>What I'm working on</h2>
         <div>
           <h3>Major projects</h3>
         </div>

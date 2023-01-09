@@ -15,6 +15,7 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: url('https://earthsky.org/upl/gravity_forms/6-d184048789a60d766a02a8e43117298b/2021/08/combo6final.jpg');
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -53,15 +54,36 @@
   padding: 16px;
 }
 
+.tool-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.tool {
+  padding: 6px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
 .tool-img {
-  height: 16px;
-  width: 16px;
+  height: 20px;
+  width: 20px;
 }
 
 .skill-container {
   width: 80%;
   display: flex;
   gap: 8px;
+}
+
+p.tool-title {
+  font-size: 12px;
+  margin: 0;
 }
 
 section {

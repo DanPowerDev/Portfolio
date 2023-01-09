@@ -1,10 +1,12 @@
 import './App.css';
+import NavBar from './components/NavBar';
 import { SkillCard } from './components/skill-card';
 import { skillArray } from './content/skills';
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
         <h1>Let's build something beautiful</h1>
       </header>

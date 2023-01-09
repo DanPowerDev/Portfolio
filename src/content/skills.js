@@ -48,7 +48,7 @@ export const skillArray = [
   },
   {
     title: 'Product management',
-    text: 'Task scoping, prioritization, roadmapping etc...',
+    text: 'Task scoping, prioritization, roadmapping, lorem ipsum dolor sit amet etc...',
     tools: [
       {
         title: 'JIRA',

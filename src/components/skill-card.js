@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faPenRuler, faListCheck } from '@fortawesome/free-solid-svg-icons'
 
-import './skill-card.css';
+import './SkillCard.css';
 
 export const SkillCard = ({skill}) => {
   

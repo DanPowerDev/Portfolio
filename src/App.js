@@ -1,7 +1,9 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import { SkillCard } from './components/skill-card';
-import { skillArray } from './content/skills';
+import { skills } from './content/skills';
+import ProjectCard from './components/ProjectCard';
+import { projects } from './content/projects';
 
 function App() {
   return (
@@ -13,7 +15,13 @@ function App() {
       <section>
         <h2>What I do</h2>
         <div className='skill-container'>
-          {skillArray.map((skill, i) => <SkillCard key={i} skill={skill} />)}
+          {skills.map((skill, i) => <SkillCard key={i} skill={skill} />)}
+        </div>
+      </section>
+      <section>
+        <h2>What I'm working on</h2>
+        <div>
+          {projects.map((project, i) => <ProjectCard key={i} project={project}/>)}
         </div>
       </section>
       {/* <section className='welcome'>

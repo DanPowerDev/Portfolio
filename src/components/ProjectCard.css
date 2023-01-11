@@ -1,0 +1,13 @@
+/*TODO a lot of these are similar to other card styles, they could be combined*/
+
+.project-card {
+  border: 1px solid #EEEEEE;
+  padding: 16px;
+  box-shadow: 0px 2px 4px 2px #00000015;
+}
+
+.project-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

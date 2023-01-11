@@ -1,7 +1,7 @@
-export const skillArray = [
+export const skills = [
   {
     title: 'Software development',
-    text: 'Solving techincal problems and bringing designs to life with pixel-perfect, rigorously tested accuracy...',
+    text: 'Solving techincal problems and bringing designs to life with pixel-perfect accuracy',
     tools: [
       {
         title: 'JavaScript',
@@ -31,8 +31,8 @@ export const skillArray = [
     ]
   },
   {
-    title: 'Interface & experience design',
-    text: 'Re-orienting or designing from scratch from the ground up for all sizes, testing iterating blah blah...',
+    title: 'Interface design',
+    text: 'Planning, building, tesing and iterating responsive experiences for devices of all sizes',
     tools: [
       {
         title: 'Figma',
@@ -48,7 +48,7 @@ export const skillArray = [
   },
   {
     title: 'Product management',
-    text: 'Task scoping, prioritization, roadmapping, lorem ipsum dolor sit amet etc...',
+    text: 'Scoping, maping and prioritizing key tasks within an agile framework',
     tools: [
       {
         title: 'JIRA',

@@ -1,9 +1,11 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import { SkillCard } from './components/skill-card';
+import { SkillCard } from './components/SkillCard';
 import { skills } from './content/skills';
 import ProjectCard from './components/ProjectCard';
 import { projects } from './content/projects';
+import BioCard from './components/BioCard';
+import { bio } from './content/bio';
 
 function App() {
   return (
@@ -26,13 +28,11 @@ function App() {
       </section>
       <section>
         <h2>About</h2>
-        <p>
-          Call me Dan! I'm a software engineer who's worked for massive companies and tiny startups, doing everything from coding to product design (often simultaneously). I'm most at home in a team of focused, savvy and driven professionals and I'm eager to bring my experience and my can-do attitude the next step of my career. 
-        </p>
-        <p>Currently open to full-time and contract development work.</p>
+        <BioCard bio={bio} />
       </section>
       <section>
         <h2>Contact</h2>
+        <p>Currently open to full-time and contract development work.</p>
         <p>The best way to reach me is by email, at DanPowerDev@protonmail.com</p>
         <p>You can also reach me on LinkedIn.</p>
       </section>

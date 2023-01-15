@@ -1,7 +1,7 @@
 export const bio = {
-  title: 'Call me Dan!',
+  title: "Call me Dan! I'm a software engineer with a unique blend of skills and experience. ",
   text: [
-    "I'm a software engineer who's worked for massive companies and tiny startups, doing everything from coding to product design (often simultaneously).",
+    "I've worked for massive companies and tiny startups, doing everything from coding to product design (often simultaneously).",
     "I'm most at home in a team of focused, savvy and driven professionals and I'm eager to bring my experience and my can-do attitude the next step of my career.",
     "Currently seeking full-time employment. Open to contract work.",
   ],

@@ -1,0 +1,54 @@
+/* Specific font elements */
+
+* {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+p.lead {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+p.tool-title {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* General classes */
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.text-light {
+  color: white;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/TextStyles.css'
 import NavBar from './components/global/NavBar';
 import { SkillCard } from './components/SkillCard';
 import { skills } from './content/skills';
@@ -9,6 +10,7 @@ import { bio } from './content/bio';
 import ContactCard from './components/ContactCard';
 import { contact } from './content/contact';
 import Footer from './components/global/Footer';
+import ContentContainer from './components/global/ContentContainer';
 
 function App() {
   return (
@@ -19,16 +21,14 @@ function App() {
       </header>
       <section>
         <h2>What I do</h2>
-        <div className='skill-container'>
+        <ContentContainer>
           {skills.map((skill, i) => <SkillCard key={i} skill={skill} />)}
-        </div>
+        </ContentContainer>
       </section>
       <section>
         {/* TODO: Add github here somehow */}
-        <h2>What I'm working on right now</h2>
-        <div>
-          {projects.map((project, i) => <ProjectCard key={i} project={project}/>)}
-        </div>
+        <h2>Current projects</h2>
+        {projects.map((project, i) => <ProjectCard key={i} project={project}/>)}
       </section>
       <section>
         <h2>About</h2>
@@ -36,9 +36,9 @@ function App() {
       </section>
       <section>
         <h2>Contact</h2>
-        <div className='contact-container'>
+        <ContentContainer>
           {contact.map((method, i) => <ContactCard key={i} method={method}/>)}
-        </div>
+        </ContentContainer>
       </section>
       <Footer />
     </div>

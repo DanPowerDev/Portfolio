@@ -33,6 +33,12 @@ h2 {
   margin: 0;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 800px;
+}
 
 /*TODO: Flex-col-4pc Flex-col-8px, etc.*/
 

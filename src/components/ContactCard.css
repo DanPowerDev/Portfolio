@@ -1,0 +1,9 @@
+.contact-card {
+  box-shadow: 0px 2px 4px 2px #00000015;
+  padding: 12px;
+  flex: 1;
+}
+
+h4 {
+  margin: 0;
+}

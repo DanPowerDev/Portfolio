@@ -6,6 +6,8 @@ import ProjectCard from './components/ProjectCard';
 import { projects } from './content/projects';
 import BioCard from './components/BioCard';
 import { bio } from './content/bio';
+import ContactCard from './components/ContactCard';
+import { contact } from './content/contact';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
         </div>
       </section>
       <section>
+        {/* TODO: Add github here somehow */}
         <h2>What I'm working on right now</h2>
         <div>
           {projects.map((project, i) => <ProjectCard key={i} project={project}/>)}
@@ -32,6 +35,9 @@ function App() {
       </section>
       <section>
         <h2>Contact</h2>
+        <div className='contact-container'>
+          {contact.map((method, i) => <ContactCard key={i} method={method}/>)}
+        </div>
         <p>Currently open to full-time and contract development work.</p>
         <p>The best way to reach me is by email, at DanPowerDev@protonmail.com</p>
         <p>You can also reach me on LinkedIn.</p>

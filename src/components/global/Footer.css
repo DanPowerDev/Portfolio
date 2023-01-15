@@ -1,0 +1,17 @@
+.footer {
+  background-color: #17141A;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.footer-content p {
+  margin: 0;
+  color: white;
+}

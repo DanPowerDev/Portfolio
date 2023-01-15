@@ -1,5 +1,5 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/global/NavBar';
 import { SkillCard } from './components/SkillCard';
 import { skills } from './content/skills';
 import ProjectCard from './components/ProjectCard';
@@ -8,6 +8,7 @@ import BioCard from './components/BioCard';
 import { bio } from './content/bio';
 import ContactCard from './components/ContactCard';
 import { contact } from './content/contact';
+import Footer from './components/global/Footer';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           {contact.map((method, i) => <ContactCard key={i} method={method}/>)}
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

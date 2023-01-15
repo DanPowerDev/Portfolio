@@ -8,7 +8,7 @@ export const SkillCard = ({skill}) => {
   
   const findIcon = (title) => {
     if (title === 'Software development') return <FontAwesomeIcon icon={faCode} size='2x'/>
-    if (title === 'Interface & experience design') return <FontAwesomeIcon icon={faPenRuler} size='2x'/>
+    if (title === 'Interface design') return <FontAwesomeIcon icon={faPenRuler} size='2x'/>
     if (title === 'Product management') return <FontAwesomeIcon icon={faListCheck} size='2x'/>
   }
   

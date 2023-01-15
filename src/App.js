@@ -19,33 +19,23 @@ function App() {
         </div>
       </section>
       <section>
-        <h2>What I'm working on</h2>
+        <h2>What I'm working on right now</h2>
         <div>
           {projects.map((project, i) => <ProjectCard key={i} project={project}/>)}
         </div>
       </section>
-      {/* <section className='welcome'>
-        <h2>Welcome</h2>
+      <section>
+        <h2>About</h2>
         <p>
-          I'm a software professional with over 4 years of experience in building sleek products, designing polished interfaces and writing clean code.
+          Call me Dan! I'm a software engineer who's worked for massive companies and tiny startups, doing everything from coding to product design (often simultaneously). I'm most at home in a team of focused, savvy and driven professionals and I'm eager to bring my experience and my can-do attitude the next step of my career. 
         </p>
-        <p>
-          Currently seeking new clients for product, design or frontend development contracts.
-        </p>
+        <p>Currently open to full-time and contract development work.</p>
       </section>
       <section>
-        <h2>What I'm working on</h2>
-        <div>
-          <h3>Major projects</h3>
-        </div>
-        <div>
-          <h3>Minor projects</h3>
-          <p>Small contracts, or just for fun</p>
-        </div>
+        <h2>Contact</h2>
+        <p>The best way to reach me is by email, at DanPowerDev@protonmail.com</p>
+        <p>You can also reach me on LinkedIn.</p>
       </section>
-      <section>
-        <h2>Work with me</h2>
-      </section> */}
     </div>
   );
 }

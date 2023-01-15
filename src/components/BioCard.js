@@ -1,5 +1,6 @@
 import React from "react";
 import './BioCard.css'
+import { NewTabButton } from "./global/Buttons";
 
 const BioCard = ({bio}) => {
   const {title, text, img} = bio
@@ -10,15 +11,11 @@ const BioCard = ({bio}) => {
     <div className="bio-content">
       <h5>{title}</h5>
       {text.map((paragraph, i) => <p key={i} >{paragraph}</p>)}
-      <ResumeButton/>
+      {/* TODO: Get this hosted */}
+      <NewTabButton title={'View CV/Resume'} link={'https://rateyourmusic.com/list/bengrieve/anthony-fantanos-top-50-albums-of-2022/'} />
     </div>  
   </div>
   )
 }
 
 export default BioCard
-
-const ResumeButton = () => (
-  // TODO: Get this hosted somehow
-  <button>Curriculum vitae/Resume</button>
-)

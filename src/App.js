@@ -38,9 +38,6 @@ function App() {
         <div className='contact-container'>
           {contact.map((method, i) => <ContactCard key={i} method={method}/>)}
         </div>
-        <p>Currently open to full-time and contract development work.</p>
-        <p>The best way to reach me is by email, at DanPowerDev@protonmail.com</p>
-        <p>You can also reach me on LinkedIn.</p>
       </section>
     </div>
   );

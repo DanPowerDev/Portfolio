@@ -4,6 +4,16 @@
   flex: 1;
 }
 
-h4 {
-  margin: 0;
+.flex-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pref-label {
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: turquoise;
+  display: flex;
+  align-items: center;
 }

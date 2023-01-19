@@ -1,0 +1,7 @@
+.circle-btn {
+  padding: 6px;
+  border-radius: 80px;
+  border: none;
+  background-color: grey;
+  cursor: pointer;
+}

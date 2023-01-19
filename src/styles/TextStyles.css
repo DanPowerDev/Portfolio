@@ -1,42 +1,73 @@
 /* Specific font elements */
 
-* {
-  margin-top: 0;
+.no-bottom-margin {
+  margin: 0;
 }
 
 h1 {
+  margin-top: 0;
   font-size: 52px;
 }
 
 h2 {
+  margin-top: 0;
   font-size: 32px;
   margin-bottom: 24px;
 }
 
 h3 {
+  margin-top: 0;
   font-size: 24px;
   margin-bottom: 12px;
 }
 
 h4 {
+  margin-top: 0;
   font-size: 20px;
   margin-bottom: 8px;
 }
 
+h5 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
 p {
+  margin-top: 0;
   font-size: 16px;
   margin-bottom: 8px;
 }
 
 p.lead {
+  margin-top: 0;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 8px;
 }
 
 p.tool-title {
+  margin-top: 0;
   font-size: 12px;
   margin: 0;
+}
+
+/* More classes for spans */
+
+.fine-print {
+  font-size: 12px;
+  margin: 0;
+}
+
+.label-text {
+  font-size: 12px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.nav-text {
+  margin: 0;
+  font-size: 18px;
 }
 
 /* General classes */

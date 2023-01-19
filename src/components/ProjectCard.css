@@ -12,3 +12,7 @@
   flex-direction: column;
   gap: 4px;
 }
+
+.project-img {
+  max-width: 100%;
+}

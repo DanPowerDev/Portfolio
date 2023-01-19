@@ -12,5 +12,12 @@ export const contact = [
     text: 'linkedin.com/in/danpowerdev',
     buttonType: 'newTab',
     link: 'https://linkedin.com/in/danpowerdev',
-  }
+  },
+  {
+    title: 'GitHub',
+    pref: false,
+    text: 'github.com/DanPowerDev',
+    buttonType: 'newTab',
+    link: 'https://https://github.com/DanPowerDev',
+  },
 ]

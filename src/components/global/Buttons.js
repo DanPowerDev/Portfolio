@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopy, faUpRightFromSquare,} from '@fortawesome/free-solid-svg-icons'
+import './Buttons.css'
 
 export const CopyLinkButton = ({title = 'Copy', link}) => {
   
@@ -9,8 +10,10 @@ export const CopyLinkButton = ({title = 'Copy', link}) => {
   }
   
   return(
-    <button onClick={() => handleClick(link)} >
-      {title}
+    <button 
+      className="circle-btn"
+      onClick={() => handleClick(link)} 
+    >
       <FontAwesomeIcon icon={faCopy} size='1x'/>
     </button>
   )
@@ -23,8 +26,10 @@ export const NewTabButton = ({title = 'New tab', link}) => {
   }
   
   return(
-    <button onClick={() => handleClick(link)} >
-      {title}
+    <button 
+      className="circle-btn"
+      onClick={() => handleClick(link)} 
+    >
       <FontAwesomeIcon icon={faUpRightFromSquare} size='1x'/>
     </button>
   )

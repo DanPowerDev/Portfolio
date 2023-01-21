@@ -1,7 +1,8 @@
 export const skills = [
   {
-    title: 'Software development',
-    text: 'Solving techincal problems and bringing designs to life with pixel-perfect accuracy',
+    id: 'FE',
+    title: 'Frontend development',
+    text: 'Building features, displaying data and breathing life into client interactions',
     tools: [
       {
         title: 'JavaScript',
@@ -23,16 +24,34 @@ export const skills = [
         src: 'https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg',
         alt: 'CSS logo'
       },
+    ]
+  },
+  {
+    id: 'BE',
+    title: 'Backend development',
+    text: 'Solving techincal problems and handling HTTPS requests with precision and efficiency',
+    tools: [
       {
         title: 'Python',
         src: 'https://storage.needpix.com/rsynced_images/language-2024210_1280.png',
         alt: 'Python logo'
-      }
+      },
+      {
+        title: 'Node JS',
+        src: 'https://miro.medium.com/max/4800/1*TGwJKcxY8kGEenRLLedeLw.webp',
+        alt: 'Node JS logo'
+      },
+      {
+        title: 'Mongo DB',
+        src: 'https://seeklogo.com/images/M/mongodb-logo-655F7D542D-seeklogo.com.png',
+        alt: 'Mongo DB logo'
+      },
     ]
   },
   {
-    title: 'Interface design',
-    text: 'Planning, building, tesing and iterating responsive experiences for devices of all sizes',
+    id: 'UX',
+    title: 'User experience (UX) design',
+    text: 'Planning, building, tesing and iterating interfaces for devices of all responsive sizes',
     tools: [
       {
         title: 'Figma',
@@ -46,30 +65,4 @@ export const skills = [
       }
     ]
   },
-  {
-    title: 'Product management',
-    text: 'Scoping, maping and prioritizing key tasks within an agile framework',
-    tools: [
-      {
-        title: 'JIRA',
-        src: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png',
-        alt: 'JIRA logo'
-      }, 
-      {
-        title: 'Confluence',
-        src: 'https://seeklogo.com/images/C/confluence-logo-D9B07137C2-seeklogo.com.png',
-        alt: 'Confluence logo'
-      },
-      {
-        title: 'Asana',
-        src: 'https://cdn.worldvectorlogo.com/logos/asana-logo.svg',
-        alt: 'Asana logo'
-      },
-      {
-        title: 'Zenhub',
-        src: 'https://seeklogo.com/images/Z/zenhub-logo-5302123E6B-seeklogo.com.png',
-        alt: 'Zenhub logo'
-      }
-    ]
-  }
 ]

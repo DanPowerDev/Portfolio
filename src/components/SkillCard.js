@@ -1,23 +1,23 @@
 import React, {useState} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faPenRuler, faListCheck } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faPenRuler, faSitemap } from '@fortawesome/free-solid-svg-icons'
 
 import './SkillCard.css';
 
 export const SkillCard = ({skill}) => {
   
-  const findIcon = (title) => {
-    if (title === 'Software development') return <FontAwesomeIcon icon={faCode} size='2x'/>
-    if (title === 'Interface design') return <FontAwesomeIcon icon={faPenRuler} size='2x'/>
-    if (title === 'Product management') return <FontAwesomeIcon icon={faListCheck} size='2x'/>
+  const findIcon = (id) => {
+    if (id === 'FE') return <FontAwesomeIcon icon={faCode} size='2x'/>
+    if (id === 'BE') return <FontAwesomeIcon icon={faSitemap} size='2x'/>
+    if (id === 'UX') return <FontAwesomeIcon icon={faPenRuler} size='2x'/>
   }
   
-  const {title, text, tools} = skill
+  const {id, title, text, tools} = skill
 
   return (
     <article className="skill-card">
       <div className="skill-img">
-        {findIcon(title)}
+        {findIcon(id)}
       </div>
       <div className="skill-card-text">
         <h3>{title}</h3>

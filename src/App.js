@@ -23,7 +23,7 @@ function App() {
       </header>
 
       <section>
-        <h2>What I do</h2>
+        <h2>Skills</h2>
         <ContentContainer>
           {skills.map((skill, i) => <SkillCard key={i} skill={skill} />)}
         </ContentContainer>

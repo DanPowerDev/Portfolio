@@ -4,6 +4,7 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: url('./resources/HeaderBg.jpg');
   height: 300px;
   display: flex;
   flex-direction: column;
